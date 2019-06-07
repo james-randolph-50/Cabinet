@@ -1,2 +1,18 @@
-%h1 Welcome!
-%p Find me in app/views/welcome/index.html.erb
+#banner
+    .banner_content
+        %h1 Cabinet
+        %p Save notes!
+        %button= link_to "Sign Up", new_user_registration_path
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+                %h2 Organize
+                %p Lorem ipsum set dolor amet yadda sitna ain num
+
+#bottom_cta
+    .wrapper
+        %h2 Ready To Take Notes?
+        %br
+        %button= link_to "Join Now", new_user_registration_path
