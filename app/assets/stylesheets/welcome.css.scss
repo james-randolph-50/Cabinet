@@ -7,7 +7,7 @@
 	background-repeat: no-repeat;
 	background-position: top center;
 	width: 100%;
-	min-height: 500px;
+	min-height: 300px;
 	display: table;
 	.banner_content {
 		display: table-cell;
@@ -49,7 +49,7 @@
 	background-repeat: no-repeat;
 	background-position: top center;
 	width: 100%;
-	min-height: 400px;
+	min-height: 200px;
 	display: table;
 	.callout_inner {
 		display: table-cell;
@@ -62,11 +62,11 @@
 		float: left;
 		h2 {
 			@include bold_font;
-			color: white;
+			color: rgb(107, 195, 247);
 			margin-bottom: 0;
 		}
 		p {
-			color: rgba(255, 255, 255, 0.9);
+			color: rgba(92, 149, 255, 0.9);
 		}
 	}
 }
@@ -74,6 +74,7 @@
 #bottom_cta {
 	text-align: center;
 	padding: 7.5rem 0;
+	background-color: #c3c3c3;
 	h2 {
 		@include bold_font;
 		color: $dark_gray;
